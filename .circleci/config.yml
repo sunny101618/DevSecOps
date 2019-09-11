@@ -29,6 +29,10 @@ jobs:
       - run:
           name: Install netlify-cli
           command: sudo npm install -g --silent netlify-cli
+      - run:
+          name: Add Circle Build
+          command: "echo <p>CircleCI Build Number: ${CIRCLE_BUILD_NUM}</p>" >> ./site/indext.html
+          
       - run: 
           name: Deploy to Netlify
           command: netlify deploy --dir=./site -p
