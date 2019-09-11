@@ -4,7 +4,8 @@
 	"version": "1.0.0",
 	"license": "MIT",
 	"scripts": {
-    "test": "yarn run netlify-cli"
+    "test": "yarn run netlify-cli",
+    "netlify-cli": "netlify-cli"
   	},
   	"devDependencies": {
     "netlify-cli": "^2.8.3"
