@@ -25,7 +25,7 @@ aliases:
 version: 2.1
 
 jobs:
- build:
+  build:
     executor: node
     steps:
       - checkout
