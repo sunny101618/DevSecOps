@@ -78,8 +78,8 @@ workflows:
 #          requires:
 #            - test
       - deploy:
-          requires:
-            - build
+#          requires:
+#            - build
           filters:
             branches:
               only: master
