@@ -31,7 +31,7 @@ jobs:
           command: sudo npm install -g --silent netlify-cli
       - run: 
           name: Deploy to Netlify
-          command: netlify deploy --dir=./si -p
+          command: netlify deploy --dir=./site -p
 
 workflows:
   version: 2
