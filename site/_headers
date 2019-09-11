@@ -1,2 +1,4 @@
 /*
+X-Frame-Options: DENY
 Content-Security-Policy: default-src https:
+Content-Security-Policy: default-src *; object-src 'none'
