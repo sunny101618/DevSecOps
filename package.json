@@ -1,3 +1,9 @@
 {
-	"license": "MIT"
+	"name": "DevSecOps-Sunny",
+	"author": "Sunny Chan",
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": {
+    "test": "yarn run eslint && yarn run jest"
+  }
 }
