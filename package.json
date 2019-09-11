@@ -2,5 +2,8 @@
 	"name": "DevSecOps-Sunny",
 	"author": "Sunny Chan",
 	"version": "1.0.0",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+    "netlify-cli": "^2.8.3"
+  	}
 }
