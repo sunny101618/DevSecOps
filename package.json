@@ -2,12 +2,5 @@
 	"name": "DevSecOps-Sunny",
 	"author": "Sunny Chan",
 	"version": "1.0.0",
-	"license": "MIT",
-	"scripts": {
-    "test": "yarn run netlify-cli",
-    "netlify-cli": "netlify"
-  	},
-  	"devDependencies": {
-    "netlify-cli": "^2.8.3"
-  	}
+	"license": "MIT"
 }
