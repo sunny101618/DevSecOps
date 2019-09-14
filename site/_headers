@@ -1,6 +1,6 @@
 /*
-Content-Security-Policy: default-src: https: 'unsafe-inline'
-Content-Security-Policy: default-src *; object-src 'none'
+Content-Security-Policy: default-src: https: 'unsafe-inline'; object-src: 'none';
 X-Frame-Options: DENY
+Content-Security-Policy: …; frame-ancestors: 'none' ; …
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
