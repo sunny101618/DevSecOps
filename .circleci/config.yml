@@ -32,7 +32,7 @@ jobs:
       - run:
           name: Add Circle Build
           command: echo ${CIRCLE_BUILD_NUM} >> ../site/indext.html
-      -run:
+      - run:
           name: Check the HTML file
           command: cat ../site/index.html
       - run: 
