@@ -2,5 +2,10 @@
 	"name": "DevSecOps-Sunny",
 	"author": "Sunny Chan",
 	"version": "1.0.0",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"netlify-cli": "2.15.0"
+	},
+	"main": "index.js",
+	"repository": "https://github.com/sunny101618/DevSecOps.git"
 }
