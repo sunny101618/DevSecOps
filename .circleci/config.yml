@@ -32,8 +32,9 @@ jobs:
       - run:
           name: Add Circle Build
           command: echo ${CIRCLE_BUILD_NUM} >> ../site/indext.html
+      -run:
+          name: Check the HTML file
           command: cat ../site/index.html
-
       - run: 
           name: Deploy to Netlify
           command: netlify deploy --dir=./site -p
