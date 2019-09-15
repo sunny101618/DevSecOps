@@ -73,16 +73,12 @@ workflows:
   build_and_deploy:
     jobs:
       - test:
-          filters:
-            branches:
-              ignore:
-                - gh-pages
       - build:
           requires:
             - test
       - deploy:
           requires:
-            -build
+            - build
           filters:
             branches:
               only: master
