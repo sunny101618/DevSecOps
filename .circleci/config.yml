@@ -31,10 +31,10 @@ jobs:
           command: sudo npm install -g --silent netlify-cli
       - run:
           name: Add Circle Build
-          command: pwd
+          command: echo ${CIRCLE_BUILD_NUM} >> ./site/index.html
       - run:
           name: Check the HTML file
-          command: ls -a
+          command: cat ./site/index.html
       - run: 
           name: Deploy to Netlify
           command: netlify deploy --dir=./site -p
