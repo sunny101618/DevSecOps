@@ -1,5 +1,5 @@
 /*
-Content-Security-Policy:  default-src 'none'; font-src https://rsms.me; img-src 'self'; script-src 'unsafe-inline'; style-src 'self' https://rsms.me/inter/; frame-ancestors 'none'; form-action 'self'; base-url 'self'
+Content-Security-Policy:  default-src 'none'; font-src https://rsms.me; img-src 'self'; style-src 'self' https://rsms.me/inter/; frame-ancestors 'none'; form-action 'self'; base-url 'none';
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
