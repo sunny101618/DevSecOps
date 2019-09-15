@@ -31,7 +31,7 @@ jobs:
           command: echo "<p>CircleCI Build Number:${CIRCLE_BUILD_NUM}</p>" >> ./site/index.html
       - run: 
           name: Deploy to Netlify
-          command: netlify deploy --dir=./site -p
+          command: ./node_modules/.bin/netlify deploy --dir=./site -p
 
 workflows:
   version: 2
